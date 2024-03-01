@@ -1,0 +1,106 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  height: 3.3rem;
+  margin-top: -1.7rem;
+}
+
+.header input {
+  height: 100%;
+  background: var(--gray-400);
+  border: 0;
+  border-radius: 8px;
+  width: 39rem;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 0.7rem;
+  font-size: 1rem;
+  color: var(--gray-300);
+}
+
+.header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--blue-dark);
+  border: 0;
+  border-radius: 8px;
+  gap: 0.2rem;
+  height: 100%;
+  width: 5.62rem;
+  color: var(--gray-100);
+  font-size: 0.9rem;
+  font-weight: bold; 
+  cursor: pointer;
+}
+
+.header button:hover {
+  background: var(--blue);
+}
+
+.container {
+  margin-top: 3.5rem;
+  width: 100%;
+  height: 2.68rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.headerToDoList {
+  width: 46rem;
+  height: 2.68rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: var(--gray-300) solid 0.1rem ;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.headerToDoList > div:first-of-type > span:first-of-type {
+  color: var(--blue);
+}
+
+
+
+
+.headerToDoList > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.headerToDoList > div ~ div span:first-of-type {
+  color: var(--purple);
+}
+
+.counter {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 8px;
+  padding:0 0.5rem;
+}
+
+.containerToDoList {
+  display: flex;
+  width: 100%;
+  height: 15.25rem;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.toDoList {
+  height: 15.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  color: var(--gray-300)
+}

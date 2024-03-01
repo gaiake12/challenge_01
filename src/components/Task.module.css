@@ -1,0 +1,70 @@
+.container {
+  height: 4.5rem;
+  width: 46rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+  border-radius: 8px;
+  padding: 1.3rem 1rem;
+  background: var(--gray-500);
+  font-size: 0.9rem;
+}
+
+.container button {
+  background: transparent;
+  border: none;
+}
+
+.container button svg {
+  color: var(--gray-300);
+}
+
+.container button svg:hover {
+  color: var(--danger);
+  cursor: pointer;
+}
+
+.container span {
+  color: var(--gray-100);
+}
+
+
+.checked {
+  height: 4.5rem;
+  width: 46rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+  border-radius: 8px;
+  padding: 1.3rem 1rem;
+  background: var(--gray-500);
+  font-size: 0.9rem;
+}
+
+.checked button {
+  background: transparent;
+  border: none;
+}
+
+.checked button svg {
+  color: var(--gray-300);
+}
+
+.checked button svg:hover {
+  color: var(--danger);
+  cursor: pointer;
+}
+
+
+.checked span {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+input {
+  cursor: pointer;
+}
+
+
